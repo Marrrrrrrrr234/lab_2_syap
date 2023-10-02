@@ -19,6 +19,7 @@ for i in range(n):
             row.append("&")
     arr.append(row)
 
+
 # Ставим точку в левый верхний угол
 arr[0][0] = "."
 
