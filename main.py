@@ -22,6 +22,7 @@ def is_password_good(password):
     finally:
         print("Проверка пароля завершена")
 
+
 while True:
     # Запрос пароля с клавиатуры
     password = input("Введите пароль: ")
