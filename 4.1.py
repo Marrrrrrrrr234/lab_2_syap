@@ -9,15 +9,8 @@ def divide(x, y):
 try:
     x = float(input("Введите делимое : "))
 
-
-
     y = float(input("Введите делитель: "))
 
     divide(x, y)
 except ValueError:
     print("Ошибка: Введите корректное числовое значение")
-
-
-
-
-
