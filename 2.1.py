@@ -1,5 +1,6 @@
 import math
 
+
 def is_prime(num):
     if num < 2:
         return False
@@ -7,6 +8,7 @@ def is_prime(num):
         if num % i == 0:
             return False
     return True
+
 
 def process_input(input_data):
     try:
@@ -46,6 +48,7 @@ def process_input(input_data):
 
     except Exception as e:
         return f"Ошибка: {e}"
+
 
 def menu():
     while True:
@@ -95,5 +98,6 @@ def menu():
 
         except Exception as e:
             f"Ошибка: {e}"
+
 
 menu()
